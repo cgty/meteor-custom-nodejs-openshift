@@ -1,9 +1,10 @@
 {
-  "name": "nodejs-Custom-Version-Sample",
-  "version": "1.0.1",
-  "description": "OpenShift Node.js Custom Version Sample Application",
+  "name": "Meteor-with-Custom-Nodejs-Version-Sample",
+  "version": "1.0.0",
+  "description": "OpenShift Meteor with Custom Node.js Version Sample Application",
   "keywords": [
     "OpenShift",
+    "Meteor",
     "Node.js",
     "application",
     "openshift"
@@ -16,20 +17,20 @@
   "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
-    "url": "https://gitub.com/ramr/nodejs-custom-version-openshift"
+    "url": "https://github.com/cgty/meteor-custom-nodejs-openshift"
   },
 
   "engines": {
-    "node": ">= 0.6.0",
+    "node": ">= 0.10.25",
     "npm": ">= 1.0.0"
   },
 
   "dependencies": {
-    "express": "*"
+    "fibers": "1.0.1"
   },
   "devDependencies": {},
   "bundleDependencies": [],
 
   "private": true,
-  "main": "server.js"
+  "main": "meteor/main.js"
 }
